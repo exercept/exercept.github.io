@@ -1,0 +1,133 @@
+body {
+	background-color: #e6e6e6;
+	margin: 0 !important;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+	min-height: 800px;
+	background-color: GhostWhite;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: #bfbfbf;
+}
+
+img.header_image {
+	max-width: 100%;
+    height: auto;
+}
+
+.slideshow { /* slideshow for header */
+	z-index: 2;
+	}
+
+#navbar {
+	position: relative;
+	//top: -.3em;
+	height: 2.2em;
+	background-color: #6D98A0;
+	border: solid 1px #e6e6e6;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 0.2em;
+}
+
+#navbar ul li {
+	display: inline;
+	list-style-type: none;
+	vertical-align: middle;
+	font-size: 1.2em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#navbar a:link {
+	text-decoration: none;
+}
+
+#navbar li:link  {background-color: #DEDEE3;}
+#navbar li:visited  {background-color: #DEDEE3;}
+#navbar li:hover  {background-color: #E3FAFF;}
+#navbar li:active  {background-color: #FEB690;}
+
+#content {
+	min-height: 25em;
+	padding: 1.5em;
+}
+
+#footer {
+	padding-top: 3em;
+}
+
+/* for photo gallery page */
+#gallery-link {
+	width: 65%;
+	margin: auto;
+	padding-top: 3em;
+}
+
+/* for schedule table */
+#schedule {
+	margin: auto;
+	padding-top: 2em;
+	border: none;
+}
+
+.form_label {
+	vertical-align: top;
+}
+
+.schedule {
+	border: none;
+	background-color: #dddddd;
+	padding: 1.2em;
+	width: 15em;
+}
+
+/* for contact us page */
+
+#phone_email {
+	width: 50%;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+
+#form {
+	width: 60%;
+	height: 60%;
+	margin: auto;
+}
+
+#message-table td {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#footer_div {
+	padding-top: 4em;
+	padding-bottom: 0;
+	
+}
+
+#linksTable {
+	margin: auto;
+	font-size: 80%;
+	width: 100%;
+	background-color: #b2c9cd;
+	padding: 1.5em;
+	padding-left: 5em;
+}
+
+.footer_links {
+	//width: 15em;
+	margin: auto;
+}
