@@ -41,12 +41,11 @@ img.header_image {
 }
 
 #navbar ul li {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 	vertical-align: middle;
 	font-size: 1.2em;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 8px 1em 8px 1em;
 }
 
 #navbar a:link {
@@ -58,10 +57,10 @@ img.header_image {
 #navbar li:hover  {background-color: #E3FAFF;}
 #navbar li:active  {background-color: #FEB690;}
 
-.navbutton {
+/* .navbutton {
 	display:inline-block;
 	padding: 20px;
-}
+} */
 
 #content {
 	min-height: 25em;
