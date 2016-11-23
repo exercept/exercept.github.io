@@ -58,6 +58,10 @@ img.header_image {
 #navbar li:hover  {background-color: #E3FAFF;}
 #navbar li:active  {background-color: #FEB690;}
 
+.navbutton {
+    display:inline-block;
+}
+
 #content {
 	min-height: 25em;
 	padding: 1.5em;
