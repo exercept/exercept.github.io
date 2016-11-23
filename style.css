@@ -28,23 +28,23 @@ img.header_image {
 
 #navbar {
 	position: relative;
-	//top: -.3em;
+	top: -.3em;
 	height: auto;
 	background-color: #6D98A0;
 	border: solid 1px #e6e6e6;
 }
-
+/*
 #navbar ul {
 	margin: 0;
-	/* padding: 8px 1em; */
-}
+        padding: 8px 1em;
+}*/
 
 #navbar ul li {
 	display: inline-block;
 	list-style-type: none;
 	vertical-align: middle;
 	font-size: 1.3em;
-	padding: 1px 1.5%;
+	padding: 2px 2%;
 }
 
 #navbar a:link {
@@ -56,10 +56,6 @@ img.header_image {
 #navbar li:hover  {background-color: #E3FAFF;}
 #navbar li:active  {background-color: #FEB690;}
 
-/* .navbutton {
-	display:inline-block;
-	padding: 20px;
-} */
 
 #content {
 	min-height: 25em;
