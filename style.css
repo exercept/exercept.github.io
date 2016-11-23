@@ -60,7 +60,7 @@ img.header_image {
 
 .navbutton {
 	display:inline-block;
-	border: 8px;
+	padding: 8px;
 }
 
 #content {
