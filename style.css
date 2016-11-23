@@ -36,7 +36,7 @@ img.header_image {
 
 #navbar ul {
 	margin: 0;
-	padding: 8px 1.5em 8px 1.5em;
+	padding: 8px 1em;
 }
 
 #navbar ul li {
@@ -44,6 +44,7 @@ img.header_image {
 	list-style-type: none;
 	vertical-align: middle;
 	font-size: 1.3em;
+	padding: 1px 0.8%;
 }
 
 #navbar a:link {
