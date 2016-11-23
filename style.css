@@ -36,15 +36,15 @@ img.header_image {
 
 #navbar ul {
 	margin: 0;
-        padding: 0px 1em;
+        padding: 0px 0em;
 }
 
 #navbar ul li {
 	display: inline-block;
 	list-style-type: none;
 	vertical-align: middle;
-	font-size: 1.3em;
-	padding: 2px 2%;
+	font-size: 1.25em;
+	padding: 0.2% 2%;
 }
 
 #navbar a:link {
