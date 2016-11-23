@@ -22,11 +22,10 @@ img.header_image {
     height: auto;
 }
 */
-.slideshow { /* slideshow for header */
+/*
+.slideshow { slideshow for header
 	z-index: 2;
-	width: 90%;
-	height: auto;
-	}
+	} */
 
 #navbar {
 	position: relative;
