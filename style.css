@@ -30,7 +30,7 @@ img.header_image {
 
 #navbar {
 	position: relative;
-	top: -.3em;
+	/*top: -.3em; */
 	height: auto;
 	background-color: #6D98A0;
 	border: solid 1px #e6e6e6;
