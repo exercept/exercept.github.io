@@ -32,6 +32,7 @@ img.header_image {
 	height: auto;
 	background-color: #6D98A0;
 	border: solid 1px #e6e6e6;
+	margin: 0;
 }
 /*
 #navbar ul {
