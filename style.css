@@ -59,7 +59,8 @@ img.header_image {
 #navbar li:active  {background-color: #FEB690;}
 
 .navbutton {
-    display:inline-block;
+	display:inline-block;
+	border: 8px;
 }
 
 #content {
