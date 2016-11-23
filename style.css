@@ -32,13 +32,12 @@ img.header_image {
 	height: auto;
 	background-color: #6D98A0;
 	border: solid 1px #e6e6e6;
-	margin: 0;
 }
-/*
+
 #navbar ul {
 	margin: 0;
-        padding: 8px 1em;
-}*/
+        padding: 0px 1em;
+}
 
 #navbar ul li {
 	display: inline-block;
