@@ -3,21 +3,22 @@
 	<head>
 		<meta charset="UTF-8"> <!-- HTML5 charset -->
 		<title>Musicland Schedule</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="SHORTCUT ICON" href="favicon.ico"> <!-- MT - icon for page here, per MSDN guidelines. Used convertico.com to convert from png to ico -->
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link rel="SHORTCUT ICON" href="favicon.ico"> <!-- MT - icon for page here, per MSDN guidelines. Used convertico.com to convert from png to ico -->
-		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div id="wrapper">
+		<div id="wrapper" class="background-image">
 
 		<div id="header">
 			
 			<div class="slideshow">
-				<img src="banners/music-header.jpg">
-				<img src="banners/flute-banner.jpg">
-				<img src="banners/violin-banner.jpg">
+				<img src="banners/music-header.jpg" alt="music-sheet">
+				<img src="banners/flute-banner.jpg" alt="flute">
+				<img src="banners/violin-banner.jpg" alt="violin">
 			</div>
 		
 		</div> <!-- close div id=header -->
@@ -28,15 +29,23 @@
 				<li><a href="Musicland_Photo_Gallery.html">Photo Gallery</a></li>
 				<li><a href="#">Schedule</a></li>
 				<li><a href="Musicland_News.html">News</a></li>
-				<li><a href="Musicland_About.html">About Us</a></li>
+				<li><a href="Musicland_About.html">About</a></li>
 				<li><a href="Musicland_Contact.html">Contact</a></li>
 				</ul>		
 		</div> <!-- close div id=navbar -->
 		
+		<div class="access"> <!-- text resize widget -->
+			<ul>
+				<li><b>Adjust text size:</b></li>
+				<li><span class="small"><a href="#" rel="-1">A</a></span></li>
+				<li><span class="large"><a href="#" rel="1">A</a></span></li>
+			</ul>
+		</div> <!-- end text resize widget -->
+		
 		<div id="content">
 		
 			<table id="schedule">
-			<tr class="schedule"><th class="schedule">Class Type</th><th class="schedule">Day</th><th class="schedule">Time</th></tr>
+			<tr class="schedule"><th class="schedule gallery-message">Class Type</th><th class="schedule gallery-message">Day</th><th class="schedule gallery-message">Time</th></tr>
 			<tr class="schedule"><td class="schedule" rowspan="4">Individual (Booked)</td></tr>
 			<tr class="schedule"><td class="schedule">Monday</td><td class="schedule">10am - 12 noon</td></tr>
 			<tr class="schedule"><td class="schedule">Wednesday</td><td class="schedule">10am - 12 noon</td></tr>

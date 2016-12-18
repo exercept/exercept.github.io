@@ -13,6 +13,22 @@ body {
 	margin: 0 auto;
 }
 
+.background-image {
+	background-image: url(background-notes-fade.jpg);
+}
+
+.background-image-stretch {
+	background-image: url(background-notes-stretch.jpg);
+}
+
+.background-image-stretch2 {
+	background-image: url(background-notes-stretch2.jpg);
+}
+
+.background-image-stretch3 {
+	background-image: url(background-notes-stretch3.jpg);
+}
+
 #header {
 	background-color: #bfbfbf;
 }
@@ -22,14 +38,13 @@ img.header_image {
     height: auto;
 }
 
-.slideshow { /* slideshow for header */
+/* slideshow for header */
+.slideshow {
 	z-index: 2;
 	}
 
 #navbar {
 	position: relative;
-	//top: -.3em;
-	/*height: 2.2em;*/
 	height: auto;
 	background-color: #6D98A0;
 	border: solid 1px #e6e6e6;
@@ -42,12 +57,6 @@ img.header_image {
 }
 
 #navbar ul li {
-	/* display: inline;
-	list-style-type: none;
-	vertical-align: middle;
-	font-size: 1.2em;
-	padding-left: 1em;
-	padding-right: 1em; */
 	display: inline-block;
 	list-style-type: none;
 	vertical-align: middle;
@@ -67,6 +76,7 @@ img.header_image {
 #content {
 	min-height: 25em;
 	padding: 1.5em;
+	padding-top: 2.5em;
 }
 
 #footer {
@@ -77,7 +87,31 @@ img.header_image {
 #gallery-link {
 	width: 65%;
 	margin: auto;
-	padding-top: 3em;
+	padding-top: 1em;
+}
+
+.gallery-message {
+	font-family: 'Kaushan Script', cursive;
+	color: #3c585d;
+	font-size: 1.5em;
+	margin: auto;
+	text-align: center;
+}
+
+/* news page headings */
+.news-heading {
+	font-family: 'Kaushan Script', cursive;
+	color: #3c585d;
+	font-size: 1.8em;
+}
+/* end news page headings */
+
+#content table tr th.gallery-message {
+	font-family: 'Kaushan Script', cursive;
+	color: #3c585d;
+	font-size: 1.5em;
+	margin: auto;
+	text-align: center;
 }
 
 /* for schedule table */
@@ -91,6 +125,11 @@ img.header_image {
 	vertical-align: top;
 }
 
+/* vertical align for email contact form */
+.form_label_email {
+	vertical-align: middle;
+}
+
 .schedule {
 	border: none;
 	background-color: #dddddd;
@@ -100,20 +139,24 @@ img.header_image {
 
 /* for contact us page */
 
-#phone_email {
-	width: 50%;
+.phone_email {
+	width: 70%;
 	margin: auto;
 	padding-top: 1em;
 	padding-bottom: 1.5em;
 }
 
+.data-move-right {
+	padding-left: 2em;
+}
+
 #form {
-	width: 60%;
+	width: 70%;
 	height: 60%;
 	margin: auto;
 }
 
-#message-table td {
+.message-table td {
 	padding-top: .5em;
 	padding-bottom: .5em;
 }
@@ -134,6 +177,92 @@ img.header_image {
 }
 
 .footer_links {
-	//width: 15em;
 	margin: auto;
 }
+
+/* Eddie's style rules for the News page */
+/* to float the images and text correctly */
+.float-right {
+	float:right;
+	padding-left:20px;
+	padding-bottom:10px;
+	clear:both;
+	}
+	
+.float-left {
+	float:left;
+	padding-right:20px;
+	padding-bottom:10px;
+	}
+		
+.clr {
+	clear:both;
+	}
+/* end of Eddie's style rules */
+
+/* home page greeting styling */
+.HomePageHeadline  {
+	font-family: 'Kaushan Script', cursive;
+	color: #3c585d;
+	font-size: 3em;
+	margin-top: 0;
+	margin: auto;
+	position: relative;
+	padding: 0;
+	text-align: center;
+}
+/* end home page greeting style */
+/* home page piano image */
+.home_piano {
+	width: 30%;
+	padding: 2em;
+	float: left;
+}
+/* end home page piano image */
+/* home page intro paragraph */
+.HomePageIntroPara {
+	padding: 0;
+	padding-right: 2em;
+	width: 55%;
+	float: right;
+}
+/* end home page intro paragraph */
+.clearBoth {
+	clear: both;
+}
+
+/* JS font resize widget */
+.access {
+	color: #3c585d;
+	line-height: 1.0em;
+	padding-left: .5em;
+	padding-right: .5em;
+	position: absolute;
+	left:67%;
+	top: 39%;
+	font-size: .8em;
+	z-index: 5;
+}
+	.access li {
+		display: inline;
+		padding-left: .6em;
+		font-size: 1em;
+	}
+	.access li a {
+		color: #3c585d;
+		text-decoration: none;
+	}
+	.access li .small {
+		font-size: .9em;
+	}
+	.access li .large {
+		font-size: 1.4em;
+	}
+/* end js font resize widget */
+
+/* contact page email fieldset line height */
+.email-fieldset-line {
+	line-height: 3.2em;
+}
+
+/* end contact page email fieldset line height */

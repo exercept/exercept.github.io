@@ -1,0 +1,5 @@
+div id="hideaway" style="display:none;"></div>
+
+<a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">teach music to children in a fun and intuitive way.</a>
+
+<a href="javascript:;" onClick="document.getElementById('hideaway').style.display='none';">Hide content again</a>

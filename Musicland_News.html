@@ -1,23 +1,26 @@
 <!DOCTYPE html> <!-- HTML5 doctype -->
 <html lang="en"> <!-- HTML5 opening HTML tag with language -->
 	<head>
-		<meta charset="UTF-8"> <!-- HTML5 charset -->
-		<title>Musicland News</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+		<title>Musicland News</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="SHORTCUT ICON" href="favicon.ico"> <!-- MT - icon for page here, per MSDN guidelines. Used convertico.com to convert from png to ico -->
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 		<!-- custom style classes for this page -->
+		
 	</head>
 	<body>
-		<div id="wrapper">
+		<div id="wrapper" class="background-image-stretch3">
 		
 		<div id="header">
 			
 			<div class="slideshow">
-				<img src="banners/music-header.jpg">
-				<img src="banners/flute-banner.jpg">
-				<img src="banners/violin-banner.jpg">
+				<img src="banners/music-header.jpg" alt="music-sheet">
+				<img src="banners/flute-banner.jpg" alt="flute">
+				<img src="banners/violin-banner.jpg" alt="violin">
 			</div>
 		
 		</div> <!-- close div id=header -->
@@ -28,10 +31,18 @@
 				<li><a href="Musicland_Photo_Gallery.html">Photo Gallery</a></li>
 				<li><a href="Musicland_Schedule.html">Schedule</a></li>
 				<li><a href="#">News</a></li>
-				<li><a href="Musicland_About.html">About Us</a></li>
+				<li><a href="Musicland_About.html">About</a></li>
 				<li><a href="Musicland_Contact.html">Contact</a></li>
 				</ul>		
 		</div> <!-- close div id=navbar -->
+		
+		<div class="access"> <!-- text resize widget -->
+			<ul>
+				<li><b>Adjust text size:</b></li>
+				<li><span class="small"><a href="#" rel="-1">A</a></span></li>
+				<li><span class="large"><a href="#" rel="1">A</a></span></li>
+			</ul>
+		</div> <!-- end text resize widget -->
 		
 		<div id="content">
 		
@@ -39,14 +50,14 @@
 			 <section>
 			 
 			 <p class="float-right"><img src = "DSC_0910_2.jpg" alt = "Music Class"></p>
-			 <h1>"Official recognition of the Colour Strings Method in Ireland" </h1>
+			 <h1 class="news-heading">"Official recognition of the Colour Strings Method in Ireland" </h1>
 			 
 			 <p>The Colour Strings method of music tuition in Ireland is officially recognised within the educational system. At a short musical performance by the children of 'Musicland' School of Music, Department officials paid tribute to the children who had performed a rendition of Beethoven's 'Ode to Joy'  for them". They described Colour Strings as the way forward in the initial musical education of young children. Colour Strings is a fun method of introducing children to music without delving straight into the more daunting world of music theory</p>
 			 </section>
 			 
 			 <section class="clr">
 			 <p class="float-left"><img src = "music-726962_1280.jpg" alt = "Street Music"></p>
-			 <h2> "Never too young to become buskers"</h2>
+			 <h2 class="news-heading"> "Never too young to become buskers"</h2>
 			 <p> "A group of children from Musicland School of Music took to the streets of Dublin to raise money
 			 for The Irish Deaf Society.
 			 played a selection of classical pieces on instruments such as violin, guitar, Flute and keyboard. 
@@ -58,7 +69,7 @@
 			 
 			 <section class="clr">
 			 <p class="float-right"><img src = "piano-1522857_640.jpg" alt = "Piano"></p>
-			 <h3> "New Colour Strings app to be launched in December"</h3>
+			 <h3 class="news-heading"> "New Colour Strings app to be launched in December"</h3>
 
 			 <p> "The Colourstrings app is due to be launched before Christmas. This unique method of teaching 
 			 music to children using a colour coded system of music notation will be available for android devices
@@ -69,7 +80,7 @@
 			 
 		     
 			 
-			 <p>Colourstring's goal is to: <q>teach music to children in a fun and intuitive way.</q></p>
+			 <p>Colourstring's goal is to: <q><i>teach music to children in a fun and intuitive way.</i></q></p>
 			</section>
 			
 		</div> <!-- close div id=content -->

@@ -3,22 +3,22 @@
 	<head>
 		<meta charset="UTF-8"> <!-- HTML5 charset -->
 		<title>Musicland Contact</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="SHORTCUT ICON" href="favicon.ico"> <!-- MT - icon for page here, per MSDN guidelines. Used convertico.com to convert from png to ico -->
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
-		<link rel="SHORTCUT ICON" href="favicon.ico"> <!-- MT - icon for page here, per MSDN guidelines. Used convertico.com to convert from png to ico -->
 	</head>
 	<body>
-		<div id="wrapper">
+		<div id="wrapper" class="background-image-stretch2">
 		
 		<div id="header">
 			
 			<div class="slideshow">
-				<img src="banners/music-header.jpg">
-				<img src="banners/flute-banner.jpg">
-				<img src="banners/violin-banner.jpg">
+				<img src="banners/music-header.jpg" alt="music-sheet">
+				<img src="banners/flute-banner.jpg" alt="flute">
+				<img src="banners/violin-banner.jpg" alt="violin">
 			</div>
 		
 		</div> <!-- close div id=header -->
@@ -29,41 +29,61 @@
 				<li><a href="Musicland_Photo_Gallery.html">Photo Gallery</a></li>
 				<li><a href="Musicland_Schedule.html">Schedule</a></li>
 				<li><a href="Musicland_News.html">News</a></li>
-				<li><a href="Musicland_About.html">About Us</a></li>
+				<li><a href="Musicland_About.html">About</a></li>
 				<li><a href="#">Contact</a></li>
 				</ul>		
 		</div> <!-- close div id=navbar -->
 		
+		<div class="access"> <!-- text resize widget -->
+			<ul>
+				<li><b>Adjust text size:</b></li>
+				<li><span class="small"><a href="#" rel="-1">A</a></span></li>
+				<li><span class="large"><a href="#" rel="1">A</a></span></li>
+			</ul>
+		</div> <!-- end text resize widget -->
+		
 		<div id="content">
-			<div id="phone_email">
-				<table>
-				<tr><td>Our phone number:</td><td>01 234 567 8910</td></tr>
-				<tr><td>Our email:</td><td>admin@musicland.ie</td></tr>
-				</table>		
+			<div class="phone_email">
+				<fieldset><legend class="gallery-message">Phone us:</legend>
+					<table>
+					<tr><td>Our phone number:</td><td class="data-move-right">01 234 567 8910</td></tr>
+					<!-- <tr><td>Our email:</td><td class="data-move-right">admin@musicland.ie</td></tr> -->
+					</table>
+				</fieldset>
 			</div> <!-- close div id=phone_email -->
 			
-			<div id="gmap">
-
-			</div> <!-- close div id=gmap -->
-			
+			<div class="phone_email"> <!-- open div id=form -->
+				<form action="mailto:taaffew@gmail.com" method="post" enctype="text/plain">
+					<fieldset><legend class="gallery-message">Email us:</legend>
+						<table class="message-table">
+							<tr><td>Our email:</td><td class="data-move-right email-fieldset-line">admin@musicland.ie<br /><input class="email-fieldset-line" type="submit" value="Submit">&nbsp;&nbsp;&nbsp;<input type="reset" value = "Reset" /></td><td class="form_label_email data-move-right">Message:</td><td><textarea rows="5" cols="25" placeholder="Enter your message here..."></textarea></td></tr>
+							
+						</table>
+					</fieldset>
+				</form>
+			</div> <!-- close div id=form -->
+						
 			<div id="form">
 			<form>
-				<table id="message-table"><caption>Or send us a message...</caption>
-				<tr><td class="form_label">Your name:</td><td><input type="text" name="name" size="35" /></td>
-				</tr>
-				<tr><td class="form_label">Your email:</td><td><input type="email" name="email" size="35" /></td>
-				</tr>
-				<tr><td class="form_label">Your phone:</td><td><input type="text" name="phone" size="20" /></td>
-				</tr>
-				<tr><td class="form_label">Your message:</td><td><textarea name="message" cols="35" rows="5" placeholder="Enter your message here..."></textarea></td>
-				</tr>
-				<tr><td class="form_label">How should we contact you? </td><td><input type="radio" name="contact_method" value="phone" />:Phone&nbsp;&nbsp;&nbsp;<input type="radio" name="contact_method" value="email" />:Email</td>
-				</tr>
-				<tr><td class="form_label">How did you hear about us? </td><td><input type="checkbox" name="heard_about_us" value="friend" />:Friend&nbsp;&nbsp;&nbsp;<input type="checkbox" name="heard_about_us" value="Local Ad" />:Local Ad&nbsp;&nbsp;&nbsp;<input type="checkbox" name="heard_about_us" value="golden_pages" />Golden Pages</td>
-				</tr>
-				<tr><td class="form_label"><input type="submit" value="Submit"></td><td><input type="reset" value = "reset" /></td>
-				</tr>				
-				</table>
+				<fieldset><legend class="gallery-message">Or send us a message:</legend>
+					<table class="message-table">
+					<!-- <caption>Or send us a message...</caption> -->
+					<tr><td class="form_label">Your name:</td><td><input type="text" name="name" size="35" /></td>
+					</tr>
+					<tr><td class="form_label">Your email:</td><td><input type="email" name="email" size="35" /></td>
+					</tr>
+					<tr><td class="form_label">Your phone:</td><td><input type="text" name="phone" size="20" /></td>
+					</tr>
+					<tr><td class="form_label">Your message:</td><td><textarea name="message" cols="35" rows="5" placeholder="Enter your message here..."></textarea></td>
+					</tr>
+					<tr><td class="form_label">How should we contact you? </td><td><input type="radio" name="contact_method" value="phone" />:Phone&nbsp;&nbsp;&nbsp;<input type="radio" name="contact_method" value="email" />:Email</td>
+					</tr>
+					<tr><td class="form_label">How did you hear about us? </td><td><input type="checkbox" name="heard_about_us" value="friend" />:Friend&nbsp;&nbsp;&nbsp;<input type="checkbox" name="heard_about_us" value="Local Ad" />:Local Ad&nbsp;&nbsp;&nbsp;<input type="checkbox" name="heard_about_us" value="golden_pages" />Golden Pages</td>
+					</tr>
+					<tr><td class="form_label"><input type="submit" value="Submit"></td><td><input type="reset" value = "Reset" /></td>
+					</tr>				
+					</table>
+				</fieldset>
 			</form>
 			</div> <!-- close div id=form -->
 			

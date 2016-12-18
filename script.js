@@ -19,5 +19,12 @@ $(".gallery").click(function() {
 	], {
 		'type' : 'image'
 	});
-});		
+});	
+// TEXT SIZE CHANGING WIDGET =======================================
+	$('.access li a').click(function(){
+		var size = $(this).attr('rel');
+		var currentSize = parseFloat($('#content').css('font-size'));
+		var newSize = currentSize + (size * 2) + "px";
+		$('#content').css('font-size', newSize);
+	});	
 }); // END jQuery document.ready
