@@ -238,6 +238,7 @@ img.header_image {
 	padding-left: .5em;
 	padding-right: .5em;
 	position: static;
+	overflow: auto;
 	left: 67%;
 	top: 39%;
 	font-size: .8em;
