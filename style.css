@@ -212,6 +212,9 @@ img.header_image {
 	clear:both;
 }
 
+.auIntroText {
+	text-align: justify;
+}
 .auText {
 	text-align: justify;
 	margin-left: 40%
