@@ -238,10 +238,8 @@ img.header_image {
 	padding-left: .5em;
 	padding-right: .5em;
 	position: static;
-	overflow: auto;
 	text-align: right;
 	left: 67%;
-	top: 10%;
 	font-size: .8em;
 	z-index: 5;
 }
