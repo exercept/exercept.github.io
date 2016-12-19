@@ -237,8 +237,8 @@ img.header_image {
 	line-height: 1.0em;
 	padding-left: .5em;
 	padding-right: .5em;
-	position: absolute;
-	left:67%;
+	position: relative;
+	left: 67%;
 	top: 39%;
 	font-size: .8em;
 	z-index: 5;
