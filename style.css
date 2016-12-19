@@ -215,7 +215,8 @@ img.header_image {
 /* home page piano image */
 .home_piano {
 	width: 30%;
-	padding: 2em;
+	min-width: 300px;
+	padding: 1.5em;
 	float: left;
 }
 /* end home page piano image */
