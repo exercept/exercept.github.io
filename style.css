@@ -224,8 +224,7 @@ img.header_image {
 .HomePageIntroPara {
 	padding: 0;
 	padding-right: 1.5em;
-	min-width:300px;
-	width: 50%;
+	min-width:150px;
 	float: right;
 }
 /* end home page intro paragraph */
