@@ -205,13 +205,15 @@ img.header_image {
 	float:left;
 	padding-right: 1.5em;
 	padding-bottom: 2em;
+	position: relative;
 }
 .auClear {
 	clear:both;
 }
 
 .auText {
-	max-width: 60%;
+	float: right;
+	max-width: 80%;
 	min-width: 30%;
 	text-align: justify;
 }
