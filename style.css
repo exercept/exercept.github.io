@@ -228,6 +228,11 @@ img.header_image {
 .HomePageIntroPara {
 	padding-right: 1.5em;
 	text-align: justify;
+}
+/* added by MT */
+.HomePageParas {
+	padding-right: 1.5em;
+	text-align: justify;
 	text-align-last: right;
 	-moz-text-align-last: right;
 }
