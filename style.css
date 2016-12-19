@@ -214,7 +214,7 @@ img.header_image {
 /* end home page greeting style */
 /* home page piano image */
 .home_piano {
-	padding: 1em;
+	padding: 1.5em;
 	width: 30%;
 	min-width: 300px;
 	float: left;
@@ -222,8 +222,8 @@ img.header_image {
 /* end home page piano image */
 /* home page intro paragraph */
 .HomePageIntroPara {
-	/*padding-right: 1.5em;
-	float: right;
+	padding-right: 1.5em;
+	/*float: right;
 	width: 55%;*/
 }
 /* end home page intro paragraph */
@@ -239,7 +239,6 @@ img.header_image {
 	padding-right: .5em;
 	position: static;
 	text-align: right;
-	left: 67%;
 	font-size: .8em;
 	z-index: 5;
 }
