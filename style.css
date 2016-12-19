@@ -211,7 +211,8 @@ img.header_image {
 }
 
 .auText {
-	max-width: 50%;
+	max-width: 100%;
+	min-width: 40%;
 	text-align: justify;
 }
 
