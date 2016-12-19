@@ -204,7 +204,7 @@ img.header_image {
 .auFloatLeft {
 	float:left;
 	padding-right: 1.5em;
-	padding-bottom: 0.5em;
+	padding-bottom: 2em;
 	min-width: 50%;
 }
 .auClear {
