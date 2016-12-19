@@ -214,7 +214,10 @@ img.header_image {
 /* end home page greeting style */
 /* home page piano image */
 .home_piano {
-	padding: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
 	width: 30%;
 	min-width: 300px;
 	float: left;
