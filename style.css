@@ -213,6 +213,8 @@ img.header_image {
 }
 
 .auIntroText {
+	margin-left: 1em;
+	margin-right: 1em;
 	text-align: justify;
 }
 .auText {
