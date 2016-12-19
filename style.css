@@ -223,12 +223,13 @@ img.header_image {
 	float: left;
 }
 /* end home page piano image */
+
 /* home page intro paragraph */
 .HomePageIntroPara {
 	padding-right: 1.5em;
 	text-align: justify;
-	/*float: right;
-	width: 55%;*/
+	text-align-last: right;
+	-moz-text-align-last: right;
 }
 /* end home page intro paragraph */
 .clearBoth {
