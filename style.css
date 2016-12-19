@@ -211,8 +211,7 @@ img.header_image {
 }
 
 .auText {
-	max-width: 60%;
-	float: right;
+	max-width: 55%;
 	text-align: justify;
 }
 /*end of About Us css rules*/
