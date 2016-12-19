@@ -213,9 +213,8 @@ img.header_image {
 
 .auText {
 	float: right;
-	max-width: 55%;
-	min-width: 30%;
 	text-align: justify;
+	margin-left: 40%
 }
 
 .auHead{
