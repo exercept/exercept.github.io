@@ -211,7 +211,6 @@ img.header_image {
 }
 
 .auText {
-	float: right;
 	max-width: 50%;
 	text-align: justify;
 }
