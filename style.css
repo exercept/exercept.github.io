@@ -223,6 +223,7 @@ img.header_image {
 .HomePageIntroPara {
 	padding-right: 1.5em;
 	float: right;
+	width: 55%;
 }
 /* end home page intro paragraph */
 .clearBoth {
