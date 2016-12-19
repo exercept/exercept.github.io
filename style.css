@@ -200,6 +200,16 @@ img.header_image {
 	}
 /* end of Eddie's style rules */
 
+/*About Us css rules - MT */
+.auFloatLeft {
+	float:left;
+	padding-right: 1.5em;
+	padding-bottom: 0.5em;
+}
+.auClear {
+	clear:both;
+}
+/*end of About Us css rules*/
 /* home page greeting styling */
 .HomePageHeadline  {
 	font-family: 'Kaushan Script', cursive;
