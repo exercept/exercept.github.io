@@ -209,6 +209,11 @@ img.header_image {
 .auClear {
 	clear:both;
 }
+
+.auText {
+	width: 50%;
+	float: right;
+}
 /*end of About Us css rules*/
 /* home page greeting styling */
 .HomePageHeadline  {
