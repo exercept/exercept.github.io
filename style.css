@@ -221,9 +221,9 @@ img.header_image {
 /* end home page piano image */
 /* home page intro paragraph */
 .HomePageIntroPara {
-	padding-right: 1.5em;
+	/*padding-right: 1.5em;
 	float: right;
-	width: 55%;
+	width: 55%;*/
 }
 /* end home page intro paragraph */
 .clearBoth {
