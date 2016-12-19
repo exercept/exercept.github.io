@@ -213,6 +213,7 @@ img.header_image {
 .auText {
 	width: 50%;
 	float: right;
+	text-align: justify;
 }
 /*end of About Us css rules*/
 /* home page greeting styling */
