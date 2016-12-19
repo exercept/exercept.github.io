@@ -76,7 +76,7 @@ img.header_image {
 #content {
 	min-height: 25em;
 	padding: 1.5em;
-	padding-top: 2.5em;
+	padding-top: 2em;
 }
 
 #footer {
@@ -211,7 +211,8 @@ img.header_image {
 }
 
 .auText {
-	max-width: 55%;
+	float: right;
+	max-width: 50%;
 	text-align: justify;
 }
 /*end of About Us css rules*/
