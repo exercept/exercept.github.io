@@ -215,6 +215,13 @@ img.header_image {
 	max-width: 50%;
 	text-align: justify;
 }
+
+.auHead{
+	font-family: 'Kaushan Script', cursive;
+	color: #3c585d;
+	font-size: 1.8em;
+	text-align: center;
+}
 /*end of About Us css rules*/
 /* home page greeting styling */
 .HomePageHeadline  {
