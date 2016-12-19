@@ -215,12 +215,12 @@ img.header_image {
 /* home page piano image */
 .home_piano {
 	padding: 1.5em;
+	width: 30%;
 	float: left;
 }
 /* end home page piano image */
 /* home page intro paragraph */
 .HomePageIntroPara {
-	padding: 0;
 	padding-right: 1.5em;
 	float: right;
 }
