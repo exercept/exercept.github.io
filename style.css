@@ -27,7 +27,6 @@ body {
 
 .background-image-stretch3 {
 	background-image: url(background-notes-stretch3.jpg);
-	background-repeat: repeat-y;
 	background-color: #cccccc;
 }
 
